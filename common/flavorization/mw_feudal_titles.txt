@@ -1,0 +1,248 @@
+﻿# the feudal titles
+
+baron_feudal_male = {
+	type = character
+	gender = male
+	special = holder
+	top_liege = no	tier = barony
+	priority = 15
+	governments = { feudal_government }
+}
+baron_feudal_female = {
+	type = character
+	gender = female
+	special = holder
+	top_liege = no	tier = barony
+	priority = 15
+	governments = { feudal_government }
+}
+barony_feudal = {
+	type = title
+	top_liege = no	tier = barony
+	priority = 15
+	governments = { feudal_government }
+}
+baron_feudal_independent = {
+	type = character
+	gender = male
+	special = holder
+	top_liege = no	tier = barony
+	priority = 20
+	only_independent = yes
+	governments = { feudal_government }
+}
+baron_feudal_independent_female = {
+	type = character
+	gender = female
+	special = holder
+	top_liege = no	tier = barony
+	priority = 20
+	only_independent = yes
+	governments = { feudal_government }
+}
+barony_feudal_independent = {
+	type = title
+	top_liege = no	tier = barony
+	governments = { feudal_government }
+	only_independent = yes
+	priority = 20
+}
+
+
+
+count_feudal_male = {
+	type = character
+	gender = male
+	special = holder
+	top_liege = no	tier = county
+	priority = 25
+	governments = { feudal_government }
+}
+count_feudal_female = {
+	type = character
+	gender = female
+	special = holder
+	top_liege = no	tier = county
+	priority = 25
+	governments = { feudal_government }
+}
+county_feudal = {
+	type = title
+	top_liege = no	tier = county
+	priority = 25
+	governments = { feudal_government }
+}
+count_feudal_independent = {
+	type = character
+	gender = male
+	special = holder
+	top_liege = no	tier = county
+	priority = 30
+	only_independent = yes
+	governments = { feudal_government }
+}
+count_feudal_independent_female = {
+	type = character
+	gender = female
+	special = holder
+	top_liege = no	tier = county
+	priority = 30
+	only_independent = yes
+	governments = { feudal_government }
+}
+county_feudal_independent = {
+	type = title
+	top_liege = no	tier = county
+	governments = { feudal_government }
+	only_independent = yes
+	priority = 30
+}
+
+
+duke_feudal_male = {
+	type = character
+	gender = male
+	special = holder
+	top_liege = no	tier = duchy
+	priority = 35
+	governments = { feudal_government }
+}
+duke_feudal_female = {
+	type = character
+	gender = female
+	special = holder
+	top_liege = no	tier = duchy
+	priority = 35
+	governments = { feudal_government }
+}
+duchy_feudal = {
+	type = title
+	top_liege = no	tier = duchy
+	governments = { feudal_government }
+	priority = 35
+}
+duke_feudal_independent = {
+	type = character
+	gender = male
+	special = holder
+	top_liege = no	tier = duchy
+	priority = 40
+	only_independent = yes
+	governments = { feudal_government }
+}
+duke_feudal_independent_female = {
+	type = character
+	gender = female
+	special = holder
+	top_liege = no	tier = duchy
+	priority = 40
+	only_independent = yes
+	governments = { feudal_government }
+}
+duchy_feudal_independent = {
+	type = title
+	top_liege = no	tier = duchy
+	governments = { feudal_government }
+	only_independent = yes
+	priority = 40
+}
+
+
+
+king_feudal_male = {
+	type = character
+	gender = male
+	special = holder
+	top_liege = no	tier = kingdom
+	priority = 45
+	governments = { feudal_government }
+}
+king_feudal_female = {
+	type = character
+	gender = female
+	special = holder
+	top_liege = no	tier = kingdom
+	priority = 45
+	governments = { feudal_government }
+}
+kingdom_feudal = {
+	type = title
+	top_liege = no	tier = kingdom
+	priority = 45
+	governments = { feudal_government }
+}
+king_feudal_independent = {
+	type = character
+	gender = male
+	special = holder
+	top_liege = no	tier = kingdom
+	priority = 50
+	only_independent = yes
+	governments = { feudal_government }
+}
+king_feudal_independent_female = {
+	type = character
+	gender = female
+	special = holder
+	top_liege = no	tier = kingdom
+	priority = 50
+	only_independent = yes
+	governments = { feudal_government }
+}
+kingdom_feudal_independent = {
+	type = title
+	top_liege = no	tier = kingdom
+	governments = { feudal_government }
+	only_independent = yes
+	priority = 50
+}
+
+
+
+emperor_feudal_male = {
+	type = character
+	gender = male
+	special = holder
+	top_liege = no	tier = empire
+	priority = 55
+	governments = { feudal_government }
+}
+emperor_feudal_female = {
+	type = character
+	gender = female
+	special = holder
+	top_liege = no	tier = empire
+	priority = 55
+	governments = { feudal_government }
+}
+empire_feudal = {
+	type = title
+	top_liege = no	tier = empire
+	priority = 55
+	governments = { feudal_government }
+}
+emperor_feudal_independent = {
+	type = character
+	gender = male
+	special = holder
+	top_liege = no	tier = empire
+	priority = 60
+	only_independent = yes
+	governments = { feudal_government }
+}
+emperor_feudal_independent_female = {
+	type = character
+	gender = female
+	special = holder
+	top_liege = no	tier = empire
+	priority = 60
+	only_independent = yes
+	governments = { feudal_government }
+}
+empire_feudal_independent = {
+	type = title
+	top_liege = no	tier = empire
+	governments = { feudal_government }
+	only_independent = yes
+	priority = 60
+}

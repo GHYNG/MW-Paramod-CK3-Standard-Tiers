@@ -1,0 +1,166 @@
+# MW create duchy, kingdom, empire
+# in order!
+
+found_duchy_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	major = yes
+	ai_check_interval = 60
+	desc = found_duchy_decision_desc
+
+	is_shown = {
+		highest_held_title_tier = tier_county
+		NOT = { has_game_rule = off_custom_kingdoms }
+	}
+
+	is_valid = {
+		prestige_level >= 2
+		is_independent_ruler = yes
+		OR = {
+			sub_realm_size >= 3
+			AND = {
+				custom_description = {
+					text = found_duchy_decision_three_counties_held
+					any_held_title = {
+						count > 2
+						tier = tier_county
+					}
+				}
+				sub_realm_size >= 3
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	cost = {
+		gold = 200
+		prestige = 500
+		piety = 100
+	}
+
+	effect = {
+		create_custom_duchy_effect = yes
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+found_kingdom_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	major = yes
+	ai_check_interval = 60
+	desc = found_kingdom_decision_desc
+
+	is_shown = {
+		highest_held_title_tier = tier_duchy
+		NOT = { has_game_rule = off_custom_kingdoms }
+	}
+
+	is_valid = {
+		prestige_level >= 3
+		is_independent_ruler = yes
+		OR = {
+			sub_realm_size >= 9
+			AND = {
+				custom_description = {
+					text = found_kingdom_decision_three_duchies_held
+					any_held_title = {
+						count > 2
+						tier = tier_duchy
+					}
+				}
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	cost = {
+		gold = 400
+		prestige = 1000
+		piety = 200
+	}
+
+	effect = {
+		create_custom_kingdom_effect = yes
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}
+
+found_empire_decision = {
+	picture = "gfx/interface/illustrations/decisions/decision_dynasty_house.dds"
+	major = yes
+	ai_check_interval = 60
+	desc = found_empire_decision_desc
+
+	is_shown = {
+		highest_held_title_tier = tier_kingdom
+		OR = {
+			is_independent_ruler = yes
+			any_held_title = {
+				count >= 3
+				tier = tier_kingdom
+			}
+		}
+		NOT = { has_game_rule = off_custom_kingdoms }
+	}
+
+	is_valid = {
+		prestige_level >= 4
+		OR = {
+			sub_realm_size >= 18
+			AND = {
+				custom_description = {
+					text = found_empire_decision_three_kingdoms_held
+					any_held_title = {
+						count >= 3
+						tier = tier_kingdom
+					}
+				}
+			}
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_independent_ruler = yes
+		is_available_adult = yes
+		is_at_war = no
+	}
+
+	cost = {
+		gold = 800
+		prestige = 2000
+		piety = 400
+	}
+
+	effect = {
+		create_custom_empire_effect = yes
+	}
+
+	ai_potential = {
+		always = yes
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

@@ -1,0 +1,16 @@
+# MW Mod rule changes
+
+NCharacterOpinion = {
+	EMPIRE_IS_VALID_DE_JURE_LIEGE_FOR_DUCHY = no # so empire is like any other tiers
+}
+
+NImprisonment = {
+	RANSOM_COST_BY_TIER = {
+		20	# Unlanded
+		40	# Baron
+		80	# Count
+		160	# Duke
+		320	# King
+		640	# Emperor
+	}
+}
