@@ -1,0 +1,137 @@
+﻿# The mercenary titles
+
+baron_mercenary_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 21
+	top_liege = no
+	governments = { mercenary_government }
+}
+baron_mercenary_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 21
+	top_liege = no
+	governments = { mercenary_government }
+}
+barony_mercenary = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 21
+	governments = { mercenary_government }
+}
+
+
+
+count_mercenary_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 31
+	top_liege = no
+	governments = { mercenary_government }
+}
+count_mercenary_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 31
+	top_liege = no
+	governments = { mercenary_government }
+}
+county_mercenary = {
+	type = title
+	tier = county
+	priority = 31
+	top_liege = no
+	governments = { mercenary_government }
+}
+
+
+
+duke_mercenary_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 41
+	top_liege = no
+	governments = { mercenary_government }
+}
+duke_mercenary_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 41
+	top_liege = no
+	governments = { mercenary_government }
+}
+duchy_mercenary = {
+	type = title
+	tier = duchy
+	priority = 41
+	top_liege = no
+	governments = { mercenary_government }
+}
+
+
+
+king_mercenary_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 51
+	governments = { mercenary_government }
+}
+king_mercenary_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 51
+	governments = { mercenary_government }
+}
+kingdom_mercenary = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = 51
+	governments = { mercenary_government }
+}
+
+
+
+emperor_mercenary_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 61
+	top_liege = no
+	governments = { mercenary_government }
+}
+emperor_mercenary_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 61
+	top_liege = no
+	governments = { mercenary_government }
+}
+empire_mercenary = {
+	type = title
+	tier = empire
+	top_liege = no
+	priority = 61
+	governments = { mercenary_government }
+}

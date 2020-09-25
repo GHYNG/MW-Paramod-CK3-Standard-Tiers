@@ -1,0 +1,137 @@
+﻿# The tribal titles
+
+baron_tribal_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 21
+	top_liege = no
+	governments = { tribal_government }
+}
+baron_tribal_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 21
+	top_liege = no
+	governments = { tribal_government }
+}
+barony_tribal = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 21
+	governments = { tribal_government }
+}
+
+
+
+count_tribal_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 31
+	top_liege = no
+	governments = { tribal_government }
+}
+count_tribal_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 31
+	top_liege = no
+	governments = { tribal_government }
+}
+county_tribal = {
+	type = title
+	tier = county
+	priority = 31
+	top_liege = no
+	governments = { tribal_government }
+}
+
+
+
+duke_tribal_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 41
+	top_liege = no
+	governments = { tribal_government }
+}
+duke_tribal_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 41
+	top_liege = no
+	governments = { tribal_government }
+}
+duchy_tribal = {
+	type = title
+	tier = duchy
+	priority = 41
+	top_liege = no
+	governments = { tribal_government }
+}
+
+
+
+king_tribal_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 51
+	governments = { tribal_government }
+}
+king_tribal_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 51
+	governments = { tribal_government }
+}
+kingdom_tribal = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = 51
+	governments = { tribal_government }
+}
+
+
+
+emperor_tribal_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 61
+	top_liege = no
+	governments = { tribal_government }
+}
+emperor_tribal_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 61
+	top_liege = no
+	governments = { tribal_government }
+}
+empire_tribal = {
+	type = title
+	tier = empire
+	top_liege = no
+	priority = 61
+	governments = { tribal_government }
+}

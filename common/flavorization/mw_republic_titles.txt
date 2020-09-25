@@ -1,0 +1,137 @@
+﻿# The republic titles
+
+baron_republic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 20
+	top_liege = no
+	governments = { republic_government }
+}
+baron_republic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 20
+	top_liege = no
+	governments = { republic_government }
+}
+barony_republic = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 20
+	governments = { republic_government }
+}
+
+
+
+count_republic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 30
+	top_liege = no
+	governments = { republic_government }
+}
+count_republic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 30
+	top_liege = no
+	governments = { republic_government }
+}
+county_republic = {
+	type = title
+	tier = county
+	priority = 30
+	top_liege = no
+	governments = { republic_government }
+}
+
+
+
+duke_republic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 40
+	top_liege = no
+	governments = { republic_government }
+}
+duke_republic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 40
+	top_liege = no
+	governments = { republic_government }
+}
+duchy_republic = {
+	type = title
+	tier = duchy
+	priority = 40
+	top_liege = no
+	governments = { republic_government }
+}
+
+
+
+king_republic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 50
+	governments = { republic_government }
+}
+king_republic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 50
+	governments = { republic_government }
+}
+kingdom_republic = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = 50
+	governments = { republic_government }
+}
+
+
+
+emperor_republic_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 60
+	top_liege = no
+	governments = { republic_government }
+}
+emperor_republic_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 60
+	top_liege = no
+	governments = { republic_government }
+}
+empire_republic = {
+	type = title
+	tier = empire
+	top_liege = no
+	priority = 60
+	governments = { republic_government }
+}

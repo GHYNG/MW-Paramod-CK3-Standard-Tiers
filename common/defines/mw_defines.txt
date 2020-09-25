@@ -1,0 +1,28 @@
+# MW Mod rule changes
+
+NCharacterOpinion = {
+	EMPIRE_IS_VALID_DE_JURE_LIEGE_FOR_DUCHY = no # so empire is like any other tiers
+}
+
+NImprisonment = {
+	RANSOM_COST_BY_TIER = {
+		20	# Unlanded
+		40	# Baron
+		80	# Count
+		160	# Duke
+		320	# King
+		640	# Emperor
+	}
+}
+
+NCourt = {
+	GENERATED_SPOUSES_COUNTY = 2
+	GENERATED_SPOUSES_DUCHY = 3
+	GENERATED_SPOUSES_KINGDOM = 4
+	GENERATED_SPOUSES_EMPIRE = 5
+
+	GENERATED_COMMANDERS_COUNTY = 2
+	GENERATED_COMMANDERS_DUCHY = 3
+	GENERATED_COMMANDERS_KINGDOM = 4
+	GENERATED_COMMANDERS_EMPIRE = 5
+}

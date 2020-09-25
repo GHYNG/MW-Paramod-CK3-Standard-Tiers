@@ -1,0 +1,121 @@
+﻿# most titles here are removed or moved to other files
+
+# Faction Leaders
+faction_leader_male = {
+	type = character
+	gender = male
+	faction = yes
+	priority = 1
+	special = holder
+}
+
+faction_leader_female = {
+	type = character
+	gender = female
+	faction = yes
+	priority = 1
+	special = holder
+}
+
+ #############################################
+#Fallback titles (should ideally never appear):
+
+baron = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 14
+}
+baron_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 14
+}
+barony = {
+	type = title
+	tier = barony
+	priority = 14
+}
+
+count = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 24
+}
+count_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 24
+}
+county = {
+	type = title
+	tier = county
+	priority = 24
+}
+
+duke = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 34
+}
+duke_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 34
+}
+duchy = {
+	type = title
+	tier = duchy
+	priority = 34
+}
+
+king = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 44
+}
+king_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 44
+}
+kingdom = {
+	type = title
+	tier = kingdom
+	priority = 44
+}
+
+emperor = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 54
+}
+emperor_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 54
+}
+empire = {
+	type = title
+	tier = empire
+	priority = 54
+}
