@@ -57,87 +57,329 @@ councillor_court_chaplain = {
 					first_valid = {
 						triggered_desc = {
 							trigger = {
-								scope:councillor_liege.faith = { has_doctrine = doctrine_clerical_succession_temporal_appointment
+								scope:councillor_liege.faith = { has_doctrine = doctrine_clerical_succession_temporal_appointment }
 							}
-						}
-						desc = {
-							first_valid = {
-								triggered_desc = {
-									trigger = {
-										scope"councillor_liege.highest_held_title_tier = tier_empire
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_barony
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_temporal_appointment_barony
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_temporal_appointment_county
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_temporal_appointment_duchy
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_kingdom
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_temporal_appointment_kingdom
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_empire
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_temporal_appointment_empire
 									}
 								}
-								desc = councillor_chaplain_theocracy_temporal_clerical_succession_temporal_appointment_empire
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.faith = { has_doctrine = doctrine_clerical_succession_spiritual_appointment }
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_barony
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_appointment_barony
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_appointment_county
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_appointment_duchy
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_kingdom
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_appointment_kingdom
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_empire
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_appointment_empire
+									}
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.faith = { has_doctrine = doctrine_clerical_succession_temporal_fixed_appointment }
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_barony
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_temporal_fixed_appointment_barony
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_temporal_fixed_appointment_county
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_temporal_fixed_appointment_duchy
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_kingdom
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_temporal_fixed_appointment_kingdom
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_empire
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_temporal_fixed_appointment_empire
+									}
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.faith = { has_doctrine = doctrine_clerical_succession_spiritual_fixed_appointment }
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_barony
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_fixed_appointment_barony
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_fixed_appointment_county
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_fixed_appointment_duchy
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_kingdom
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_fixed_appointment_kingdom
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_empire
+										}
+										desc = councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_fixed_appointment_empire
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				trigger = {
+					scope:councillor_liege.faith = { has_doctrine = doctrine_theocracy_lay_chergy }
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.faith = { has_doctrine = doctrine_clerical_succession_temporal_appointment }
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_barony
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_appointment_barony
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_appointment_county
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_appointment_duchy
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_kingdom
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_appointment_kingdom
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_empire
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_appointment_empire
+									}
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.faith = { has_doctrine = doctrine_clerical_succession_spiritual_appointment }
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_barony
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_appointment_barony
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_appointment_county
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_appointment_duchy
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_kingdom
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_appointment_kingdom
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_empire
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_appointment_empire
+									}
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.faith = { has_doctrine = doctrine_clerical_succession_temporal_fixed_appointment }
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_barony
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_fixed_appointment_barony
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_fixed_appointment_county
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_fixed_appointment_duchy
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_kingdom
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_fixed_appointment_kingdom
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_empire
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_fixed_appointment_empire
+									}
+								}
+							}
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.faith = { has_doctrine = doctrine_clerical_succession_spiritual_fixed_appointment }
+							}
+							desc = {
+								first_valid = {
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_barony
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_fixed_appointment_barony
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_county
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_fixed_appointment_county
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_duchy
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_fixed_appointment_duchy
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_kingdom
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_fixed_appointment_kingdom
+									}
+									triggered_desc = {
+										trigger = {
+											scope:councillor_liege.highest_held_title_tier = tier_empire
+										}
+										desc = councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_fixed_appointment_empire
+									}
+								}
 							}
 						}
 					}
 				}
 			}
 			desc = councillor_chaplain
-		
-		
-		
-			triggered_desc = {
-				trigger = {
-					scope:councillor_liege.faith = { has_doctrine = doctrine_theocracy_temporal }
-				}
-				desc = actual_bishop_title
-			}
-			triggered_desc = {
-				trigger = {
-					NOT = { scope:councillor_liege.faith = { has_doctrine = doctrine_theocracy_temporal } }
-				}
-				desc = {
-					first_valid = {
-						#Shia
-						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_empire faith = faith:ismaili }
-							desc = councillor_court_chaplain_ismaili_empire
-						}
-						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_kingdom faith = faith:ismaili }
-							desc = councillor_court_chaplain_ismaili_kingdom
-						}
-						#Islam
-						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_empire faith.religion = faith:ashari.religion }
-							desc = councillor_court_chaplain_islam_empire
-						}
-						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_kingdom faith.religion = faith:ashari.religion }
-							desc = councillor_court_chaplain_islam_kingdom
-						}
-						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_duchy faith.religion = faith:ashari.religion }
-							desc = councillor_court_chaplain_islam_duchy
-						}
-						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier < tier_duchy faith.religion = faith:ashari.religion }
-							desc = councillor_court_chaplain_islam_county
-						}
-						#Yazidi
-						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_empire faith.religion = faith:yazidi.religion }
-							desc = councillor_court_chaplain_yazidi_empire
-						}
-						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_kingdom faith.religion = faith:yazidi.religion }
-							desc = councillor_court_chaplain_yazidi_kingdom
-						}
-						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier >= tier_duchy faith.religion = faith:yazidi.religion }
-							desc = councillor_court_chaplain_yazidi_duchy
-						}
-						triggered_desc = {
-							trigger = { scope:councillor_liege.highest_held_title_tier < tier_duchy faith.religion = faith:yazidi.religion }
-							desc = councillor_court_chaplain_yazidi_county
-						}
-						desc = councillor_court_chaplain
-					}
-
-				}
-			}
-			desc = councillor_court_chaplain
 		}
 	}
 
