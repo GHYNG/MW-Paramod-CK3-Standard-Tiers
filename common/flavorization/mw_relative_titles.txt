@@ -1,0 +1,200 @@
+﻿# Titles for parents and children
+
+# ruler child
+
+prince_barony = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = barony
+	governments = { feudal_government clan_government }
+	priority = 9
+	top_liege = no
+}
+
+princess_barony = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = barony
+	governments = { feudal_government clan_government }
+	priority = 9
+	top_liege = no
+}
+
+prince_county = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = county
+	governments = { feudal_government clan_government }
+	priority = 19
+	top_liege = no
+}
+
+princess_county = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = county
+	governments = { feudal_government clan_government }
+	priority = 19
+	top_liege = no
+}
+
+prince_duchy = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = duchy
+	governments = { feudal_government clan_government }
+	priority = 29
+	top_liege = no
+}
+
+princess_duchy = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = duchy
+	governments = { feudal_government clan_government }
+	priority = 29
+	top_liege = no
+}
+
+prince_kingdom = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = kingdom
+	governments = { feudal_government clan_government }
+	priority = 39
+	top_liege = no
+}
+
+princess_kingdom = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = kingdom
+	governments = { feudal_government clan_government }
+	priority = 39
+	top_liege = no
+}
+
+prince_empire = {
+	type = character
+	gender = male
+	special = ruler_child
+	tier = empire
+	governments = { feudal_government clan_government }
+	priority = 49
+	top_liege = no
+}
+
+princess_empire = {
+	type = character
+	gender = female
+	special = ruler_child
+	tier = empire
+	governments = { feudal_government clan_government }
+	priority = 49
+	top_liege = no
+}
+
+# ruler parent
+
+father_barony = {
+	type = character
+	gender = male
+	special = queen_mother
+	tier = barony
+	governments = { feudal_government }
+	priority = 9
+	top_liege = no
+}
+mother_barony = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = barony
+	governments = { feudal_government }
+	priority = 9
+	top_liege = no
+}
+
+father_county = {
+	type = character
+	gender = male
+	special = queen_mother
+	tier = county
+	governments = { feudal_government }
+	priority = 19
+	top_liege = no
+}
+mother_county = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = county
+	governments = { feudal_government }
+	priority = 19
+	top_liege = no
+}
+
+father_duchy = {
+	type = character
+	gender = male
+	special = queen_mother
+	tier = duchy
+	governments = { feudal_government }
+	priority = 29
+	top_liege = no
+}
+mother_duchy = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = duchy
+	governments = { feudal_government }
+	priority = 29
+	top_liege = no
+}
+
+father_kingdom = {
+	type = character
+	gender = male
+	special = queen_mother
+	tier = kingdom
+	governments = { feudal_government }
+	priority = 39
+	top_liege = no
+}
+mother_kingdom = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = kingdom
+	governments = { feudal_government }
+	priority = 39
+	top_liege = no
+}
+
+father_empire = {
+	type = character
+	gender = male
+	special = queen_mother
+	tier = empire
+	governments = { feudal_government }
+	priority = 49
+	top_liege = no
+}
+mother_empire = {
+	type = character
+	gender = female
+	special = queen_mother
+	tier = empire
+	governments = { feudal_government }
+	priority = 49
+	top_liege = no
+}

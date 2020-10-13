@@ -1,0 +1,110 @@
+# Create a new county
+
+#I have founded a duchy
+mw_create_duchy.1 = {
+	type = character_event
+	title = mw_create_duchy.1.t
+	desc = {
+		triggered_desc = {
+			trigger = { exists = scope:three_duchies }
+			desc = {
+				desc = mw_create_duchy.1.opening_duchies
+				desc = double_line_break
+			}
+		}
+		desc = mw_create_duchy.2.desc
+	}
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_greedy
+	}
+	
+	immediate = {
+		play_music_cue = "mx_cue_positive_effect"
+		# If duchy is formed from three Duchies, specifically shout that out
+		if = {
+			limit = {
+				any_held_title = {
+					tier = tier_county
+					count >= 3
+				}
+			}
+			scope:old_title = { # Carried over from the decision
+				save_scope_as = county_1
+			}
+			random_held_title = {
+				limit = {
+					tier = tier_county
+					NOT = { this = scope:county_1 }
+				}
+				save_scope_as = county_2
+			}
+			random_held_title = {
+				limit = {
+					tier = tier_county
+					NOR = {
+						this = scope:county_1
+						this = scope:county_2
+					}
+				}
+				save_scope_as = county_3
+			}
+			if = { # Safeguarding against loc-breaking here
+				limit = {
+					exists = scope:county_1
+					exists = scope:county_2
+					exists = scope:county_3
+				}
+				save_scope_value_as = {
+					name = three_duchies
+					value = yes
+				}
+			}
+		}
+		show_as_tooltip = {
+			set_primary_title_to = scope:new_title
+		}
+	}
+
+	option = {
+		name = mw_create_duchy.1.a
+		custom_tooltip = mw_create_duchy.1.i_have_become_royal
+	}
+}
+
+#My liege has founded a duchy
+mw_create_duchy.2 = {
+	type = character_event
+	title = mw_create_duchy.2.t
+	desc = mw_create_duchy.2.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_greedy
+	}
+
+	immediate = { play_music_cue = "mx_cue_succession" }
+
+	option = {
+		name = {
+			text = mw_create_duchy.2.a
+			trigger = {
+				reverse_opinion = {
+					target = scope:founder
+					value >= 0
+				}
+			}
+		}
+		name = {
+			text = mw_create_duchy.2.a.dislike
+			trigger = {
+				reverse_opinion = {
+					target = scope:founder
+					value < 0
+				}
+			}
+		}
+		custom_tooltip = mw_create_duchy.2.has_become_royal
+	}
+}

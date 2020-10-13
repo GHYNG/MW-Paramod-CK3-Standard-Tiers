@@ -1,0 +1,9 @@
+﻿l_simp_chinese: 
+ found_duchy_decision:0 "建立一个新公国"
+ found_duchy_decision_desc:0 "我将以新的公国头衔统一我的领地，它将永远属于我的宗族。"
+ found_duchy_decision_confirm:0 "一统领地"
+ found_kingdom_decision_tooltip:0 "建立一个全新的公国头衔"
+ 
+ create_new_duchy:0 "你创建了一个新公国"
+ create_title_every_held_duchy:0 "你持有的所有伯国头衔"
+ create_custom_duchy_de_jure_changes:0 "成为你新公国的[de_jure|E][counties|E]"

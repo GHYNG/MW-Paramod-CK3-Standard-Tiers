@@ -1,0 +1,53 @@
+﻿l_simp_chinese:
+ 
+ councillor_spouse:0 "配偶"
+ councillor_spouse_male:0 "丈夫"
+ councillor_spouse_female:0 "妻子"
+ 
+ councillor_spouse_feudal_barony_male:0 "男夫"
+ councillor_spouse_feudal_county_male:0 "伯夫"
+ councillor_spouse_feudal_duchy_male:0 "公夫"
+ councillor_spouse_feudal_kingdom_male:0 "王夫"
+ councillor_spouse_feudal_empire_male:0 "帝夫"
+ 
+ councillor_spouse_tribal_barony_male:0 "男侍"
+ councillor_spouse_tribal_county_male:0 "男侍"
+ councillor_spouse_tribal_duchy_male:0 "男侍"
+ councillor_spouse_tribal_kingdom_male:0 "男侍"
+ councillor_spouse_tribal_empire_male:0 "男侍"
+ 
+ councillor_spouse_clan_barony_male:0 "族长夫"
+ councillor_spouse_clan_county_male:0 "族长夫"
+ councillor_spouse_clan_duchy_male:0 "族长夫"
+ councillor_spouse_clan_kingdom_male:0 "族长夫"
+ councillor_spouse_clan_empire_male:0 "族长夫"
+ 
+ councillor_spouse_republic_barony_male:0 "乡执政官丈夫"
+ councillor_spouse_republic_county_male:0 "县执政官丈夫"
+ councillor_spouse_republic_duchy_male:0 "郡执政官丈夫"
+ councillor_spouse_republic_kingdom_male:0 "州执政官丈夫"
+ councillor_spouse_republic_empire_male:0 "国执政官丈夫"
+ 
+ councillor_spouse_feudal_barony_female:0 "男后"
+ councillor_spouse_feudal_county_female:0 "伯后"
+ councillor_spouse_feudal_duchy_female:0 "公后"
+ councillor_spouse_feudal_kingdom_female:0 "王后"
+ councillor_spouse_feudal_empire_female:0 "帝后"
+ 
+ councillor_spouse_tribal_barony_female:0 "酋妻"
+ councillor_spouse_tribal_county_female:0 "酋妻"
+ councillor_spouse_tribal_duchy_female:0 "酋妻"
+ councillor_spouse_tribal_kingdom_female:0 "酋妻"
+ councillor_spouse_tribal_empire_female:0 "酋妻"
+ 
+ councillor_spouse_clan_barony_female:0 "女族长"
+ councillor_spouse_clan_county_female:0 "女族长"
+ councillor_spouse_clan_duchy_female:0 "女族长"
+ councillor_spouse_clan_kingdom_female:0 "女族长"
+ councillor_spouse_clan_empire_female:0 "女族长"
+ 
+ councillor_spouse_republic_barony_female:0 "乡执政官夫人"
+ councillor_spouse_republic_county_female:0 "县执政官夫人"
+ councillor_spouse_republic_duchy_female:0 "郡执政官夫人"
+ councillor_spouse_republic_kingdom_female:0 "州执政官夫人"
+ councillor_spouse_republic_empire_female:0 "国执政官夫人"

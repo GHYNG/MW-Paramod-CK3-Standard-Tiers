@@ -1,0 +1,103 @@
+﻿l_simp_chinese:
+
+#################################
+#				0			1
+#	神殿管辖	神权		君权
+#	神职任命	神权		君权
+#	神职撤销	无权		有权
+#
+#	000	教会驻国代行使
+#	001	国牧首
+#	010	国教长
+#	011	国祭司长
+#	100	教会驻国监察使
+#	101	国主教
+#	110	国神职长
+#	111	国宗教大臣
+#
+#	默认	神职人员
+#################################
+
+ 
+ council_chaplain:0 "神职人员"
+
+
+ mw_councillor_barony:0 "$barony_feudal_independent$"
+ mw_councillor_county:0 "$county_feudal_independent$"
+ mw_councillor_duchy:0 "$duchy_feudal_independent$"
+ mw_councillor_kingdom:0 "$kingdom_feudal_independent$"
+ mw_councillor_empire:0 "$empire_feudal_independent$"
+ 
+ mw_councillor_baron:0 "$baron_feudal_independent$"
+ mw_councillor_count:0 "$count_feudal_independent$"
+ mw_councillor_duke:0 "$duke_feudal_independent$"
+ mw_councillor_king:0 "$king_feudal_independent$"
+ mw_councillor_emperor:0 "$emperor_feudal_independent$"
+ 
+ # You can just adjust those lines
+ mw_councillor_000:0 "代行使"
+ mw_councillor_001:0 "牧首"
+ mw_councillor_010:0 "教长"
+ mw_councillor_011:0 "祭司长"
+ mw_councillor_100:0 "监察使"
+ mw_councillor_101:0 "主教"
+ mw_councillor_110:0 "神职长"
+ mw_councillor_111:0 "宗教大臣"
+ 
+
+
+ #	011
+ councillor_chaplain_theocracy_temporal_clerical_succession_temporal_appointment_barony:0 "$mw_councillor_barony$$mw_councillor_011$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_temporal_appointment_county:0 "$mw_councillor_county$$mw_councillor_011$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_temporal_appointment_duchy:0 "$mw_councillor_duchy$$mw_councillor_011$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_temporal_appointment_kingdom:0 "$mw_councillor_kingdom$$mw_councillor_011$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_temporal_appointment_empire:0 "$mw_councillor_empire$$mw_councillor_011$"
+ 
+ #	001
+ councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_appointment_barony:0 "$mw_councillor_barony$$mw_councillor_001$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_appointment_county:0 "$mw_councillor_county$$mw_councillor_001$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_appointment_duchy:0 "$mw_councillor_duchy$$mw_councillor_001$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_appointment_kingdom:0 "$mw_councillor_kingdom$$mw_councillor_001$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_appointment_empire:0 "$mw_councillor_empire$$mw_councillor_001$"
+ 
+ #	010
+ councillor_chaplain_theocracy_temporal_clerical_succession_temporal_fixed_appointment_barony:0 "$mw_councillor_barony$$mw_councillor_010$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_temporal_fixed_appointment_county:0 "$mw_councillor_county$$mw_councillor_010$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_temporal_fixed_appointment_duchy:0 "$mw_councillor_duchy$$mw_councillor_010$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_temporal_fixed_appointment_kingdom:0 "$mw_councillor_kingdom$$mw_councillor_010$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_temporal_fixed_appointment_empire:0 "$mw_councillor_empire$$mw_councillor_010$"
+ 
+ #	000
+ councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_fixed_appointment_barony:0 "教会驻$mw_councillor_barony$$mw_councillor_000$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_fixed_appointment_county:0 "教会驻$mw_councillor_county$$mw_councillor_000$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_fixed_appointment_duchy:0 "教会驻$mw_councillor_duchy$$mw_councillor_000$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_fixed_appointment_kingdom:0 "教会驻$mw_councillor_kingdom$$mw_councillor_000$"
+ councillor_chaplain_theocracy_temporal_clerical_succession_spiritual_fixed_appointment_empire:0 "教会驻$mw_councillor_empire$$mw_councillor_000$"
+ 
+ #	111
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_appointment_barony:0 "$mw_councillor_barony$$mw_councillor_111$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_appointment_county:0 "$mw_councillor_county$$mw_councillor_111$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_appointment_duchy:0 "$mw_councillor_duchy$$mw_councillor_111$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_appointment_kingdom:0 "$mw_councillor_kingdom$$mw_councillor_111$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_appointment_empire:0 "$mw_councillor_empire$$mw_councillor_111$"
+ 
+ #	101
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_appointment_barony:0 "$mw_councillor_barony$$mw_councillor_101$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_appointment_county:0 "$mw_councillor_county$$mw_councillor_101$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_appointment_duchy:0 "$mw_councillor_duchy$$mw_councillor_101$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_appointment_kingdom:0 "$mw_councillor_kingdom$$mw_councillor_101$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_appointment_empire:0 "$mw_councillor_empire$$mw_councillor_101$"
+ 
+ #	110
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_fixed_appointment_barony:0 "$mw_councillor_barony$$mw_councillor_110$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_fixed_appointment_county:0 "$mw_councillor_county$$mw_councillor_110$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_fixed_appointment_duchy:0 "$mw_councillor_duchy$$mw_councillor_110$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_fixed_appointment_kingdom:0 "$mw_councillor_kingdom$$mw_councillor_110$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_temporal_fixed_appointment_empire:0 "$mw_councillor_empire$$mw_councillor_110$"
+ 
+ #	100
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_fixed_appointment_barony:0 "教会驻$mw_councillor_barony$$mw_councillor_100$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_fixed_appointment_county:0 "教会驻$mw_councillor_county$$mw_councillor_100$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_fixed_appointment_duchy:0 "教会驻$mw_councillor_duchy$$mw_councillor_100$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_fixed_appointment_kingdom:0 "教会驻$mw_councillor_kingdom$$mw_councillor_100$"
+ councillor_chaplain_theocracy_lay_chergy_clerical_succession_spiritual_fixed_appointment_empire:0 "教会驻$mw_councillor_empire$$mw_councillor_100$"

@@ -1,0 +1,136 @@
+﻿# most titles here are removed or moved to other files
+
+# Faction Leaders
+faction_leader_male = {
+	type = character
+	gender = male
+	faction = yes
+	priority = 1
+	special = holder
+}
+
+faction_leader_female = {
+	type = character
+	gender = female
+	faction = yes
+	priority = 1
+	special = holder
+}
+
+ #############################################
+#Fallback titles (should ideally never appear):
+
+baron = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 10
+	top_liege = yes
+}
+baron_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 10
+	top_liege = yes
+}
+barony = {
+	type = title
+	tier = barony
+	priority = 10
+	top_liege = yes
+}
+
+count = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 20
+	top_liege = yes
+}
+count_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 20
+	top_liege = yes
+}
+county = {
+	type = title
+	tier = county
+	priority = 20
+	top_liege = yes
+}
+
+duke = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 30
+	top_liege = yes
+}
+duke_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 30
+	top_liege = yes
+}
+duchy = {
+	type = title
+	tier = duchy
+	priority = 30
+	top_liege = yes
+}
+
+king = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 40
+	top_liege = yes
+}
+king_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 40
+	top_liege = yes
+}
+kingdom = {
+	type = title
+	tier = kingdom
+	priority = 40
+	top_liege = yes
+}
+
+emperor = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 50
+	top_liege = yes
+}
+emperor_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 50
+	top_liege = yes
+}
+empire = {
+	type = title
+	tier = empire
+	priority = 50
+	top_liege = yes
+}

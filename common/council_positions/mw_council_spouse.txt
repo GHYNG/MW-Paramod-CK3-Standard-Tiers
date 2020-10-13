@@ -1,0 +1,449 @@
+﻿# MW Spouse
+
+councillor_spouse = {
+	special_council_position = yes
+	auto_fill = yes
+	can_fire = no
+	can_reassign = no
+	
+	name = {
+		first_valid = {
+			# male
+			triggered_desc = {
+				trigger = { is_male = yes }
+				desc = {
+					first_valid = {
+						# feudal
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_barony
+								scope:councillor_liege = {
+									has_government = feudal_government
+								}
+							}
+							desc = councillor_spouse_feudal_barony_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_county
+								scope:councillor_liege = {
+									has_government = feudal_government
+								}
+							}
+							desc = councillor_spouse_feudal_county_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+								scope:councillor_liege = {
+									has_government = feudal_government
+								}
+							}
+							desc = councillor_spouse_feudal_duchy_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_kingdom
+								scope:councillor_liege = {
+									has_government = feudal_government
+								}
+							}
+							desc = councillor_spouse_feudal_kingdom_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_empire
+								scope:councillor_liege = {
+									has_government = feudal_government
+								}
+							}
+							desc = councillor_spouse_feudal_empire_male
+						}
+						
+						# tribal
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_barony
+								scope:councillor_liege = {
+									has_government = tribal_government
+								}
+							}
+							desc = councillor_spouse_tribal_barony_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_county
+								scope:councillor_liege = {
+									has_government = tribal_government
+								}
+							}
+							desc = councillor_spouse_tribal_county_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+								scope:councillor_liege = {
+									has_government = tribal_government
+								}
+							}
+							desc = councillor_spouse_tribal_duchy_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_kingdom
+								scope:councillor_liege = {
+									has_government = tribal_government
+								}
+							}
+							desc = councillor_spouse_tribal_kingdom_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_empire
+								scope:councillor_liege = {
+									has_government = tribal_government
+								}
+							}
+							desc = councillor_spouse_tribal_empire_male
+						}
+						
+						# clan
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_barony
+								scope:councillor_liege = {
+									has_government = clan_government
+								}
+							}
+							desc = councillor_spouse_clan_barony_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_county
+								scope:councillor_liege = {
+									has_government = clan_government
+								}
+							}
+							desc = councillor_spouse_clan_county_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+								scope:councillor_liege = {
+									has_government = clan_government
+								}
+							}
+							desc = councillor_spouse_clan_duchy_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_kingdom
+								scope:councillor_liege = {
+									has_government = clan_government
+								}
+							}
+							desc = councillor_spouse_clan_kingdom_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_empire
+								scope:councillor_liege = {
+									has_government = clan_government
+								}
+							}
+							desc = councillor_spouse_clan_empire_male
+						}
+						
+						# republic
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_barony
+								scope:councillor_liege = {
+									has_government = republic_government
+								}
+							}
+							desc = councillor_spouse_republic_barony_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_county
+								scope:councillor_liege = {
+									has_government = republic_government
+								}
+							}
+							desc = councillor_spouse_republic_county_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+								scope:councillor_liege = {
+									has_government = republic_government
+								}
+							}
+							desc = councillor_spouse_republic_duchy_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_kingdom
+								scope:councillor_liege = {
+									has_government = republic_government
+								}
+							}
+							desc = councillor_spouse_republic_kingdom_male
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_empire
+								scope:councillor_liege = {
+									has_government = republic_government
+								}
+							}
+							desc = councillor_spouse_republic_empire_male
+						}
+						desc = councillor_spouse_male
+					}
+				}
+			}
+			# female
+			triggered_desc = {
+				trigger = { is_female = yes }
+				desc = {
+					first_valid = {
+						# feudal
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_barony
+								scope:councillor_liege = {
+									has_government = feudal_government
+								}
+							}
+							desc = councillor_spouse_feudal_barony_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_county
+								scope:councillor_liege = {
+									has_government = feudal_government
+								}
+							}
+							desc = councillor_spouse_feudal_county_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+								scope:councillor_liege = {
+									has_government = feudal_government
+								}
+							}
+							desc = councillor_spouse_feudal_duchy_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_kingdom
+								scope:councillor_liege = {
+									has_government = feudal_government
+								}
+							}
+							desc = councillor_spouse_feudal_kingdom_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_empire
+								scope:councillor_liege = {
+									has_government = feudal_government
+								}
+							}
+							desc = councillor_spouse_feudal_empire_female
+						}
+						
+						# tribal
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_barony
+								scope:councillor_liege = {
+									has_government = tribal_government
+								}
+							}
+							desc = councillor_spouse_tribal_barony_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_county
+								scope:councillor_liege = {
+									has_government = tribal_government
+								}
+							}
+							desc = councillor_spouse_tribal_county_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+								scope:councillor_liege = {
+									has_government = tribal_government
+								}
+							}
+							desc = councillor_spouse_tribal_duchy_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_kingdom
+								scope:councillor_liege = {
+									has_government = tribal_government
+								}
+							}
+							desc = councillor_spouse_tribal_kingdom_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_empire
+								scope:councillor_liege = {
+									has_government = tribal_government
+								}
+							}
+							desc = councillor_spouse_tribal_empire_female
+						}
+						
+						# clan
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_barony
+								scope:councillor_liege = {
+									has_government = clan_government
+								}
+							}
+							desc = councillor_spouse_clan_barony_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_county
+								scope:councillor_liege = {
+									has_government = clan_government
+								}
+							}
+							desc = councillor_spouse_clan_county_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+								scope:councillor_liege = {
+									has_government = clan_government
+								}
+							}
+							desc = councillor_spouse_clan_duchy_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_kingdom
+								scope:councillor_liege = {
+									has_government = clan_government
+								}
+							}
+							desc = councillor_spouse_clan_kingdom_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_empire
+								scope:councillor_liege = {
+									has_government = clan_government
+								}
+							}
+							desc = councillor_spouse_clan_empire_female
+						}
+						
+						# republic
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_barony
+								scope:councillor_liege = {
+									has_government = republic_government
+								}
+							}
+							desc = councillor_spouse_republic_barony_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_county
+								scope:councillor_liege = {
+									has_government = republic_government
+								}
+							}
+							desc = councillor_spouse_republic_county_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_duchy
+								scope:councillor_liege = {
+									has_government = republic_government
+								}
+							}
+							desc = councillor_spouse_republic_duchy_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_kingdom
+								scope:councillor_liege = {
+									has_government = republic_government
+								}
+							}
+							desc = councillor_spouse_republic_kingdom_female
+						}
+						triggered_desc = {
+							trigger = {
+								scope:councillor_liege.highest_held_title_tier = tier_empire
+								scope:councillor_liege = {
+									has_government = republic_government
+								}
+							}
+							desc = councillor_spouse_republic_empire_female
+						}
+						desc = councillor_spouse_female
+					}
+				}
+			}
+			desc = councillor_spouse
+		}
+	}
+
+	tooltip = game_concept_spouse_desc
+
+	valid_position = {
+		any_spouse = {
+			OR = {
+				court_owner = root
+				AND = {
+					is_ruler = yes
+					exists = liege
+					liege = root
+				}
+			}
+		}
+	}
+
+	valid_character = {
+		exists = liege
+		can_be_spouse_councillor_trigger = { COUNCIL_OWNER = liege }
+	}
+
+	on_get_position = {
+		set_variable = {
+			name = councillor_spouse_lifestyle_progress
+			value = 0
+		}
+		if = {
+			limit = {
+				primary_spouse.primary_title = title:e_hre
+			}
+			debug_log = "Set new Spouse council position"
+			debug_log_scopes = yes
+		}
+		trigger_event = councillor_spouse_background.0001
+	}
+
+	on_lose_position = {
+		remove_variable = councillor_spouse_lifestyle_progress
+	}
+
+	on_fired_from_position = {
+		remove_variable = councillor_spouse_lifestyle_progress
+	}
+}

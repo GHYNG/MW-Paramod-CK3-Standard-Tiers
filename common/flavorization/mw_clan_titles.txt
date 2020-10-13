@@ -1,0 +1,140 @@
+﻿# The clan titles
+
+baron_clan_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 20
+	top_liege = no
+	governments = { clan_government }
+}
+baron_clan_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 20
+	top_liege = no
+	governments = { clan_government }
+}
+barony_clan = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 20
+	governments = { clan_government }
+}
+
+
+
+count_clan_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 30
+	top_liege = no
+	governments = { clan_government }
+}
+count_clan_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 30
+	top_liege = no
+	governments = { clan_government }
+}
+county_clan = {
+	type = title
+	tier = county
+	priority = 30
+	top_liege = no
+	governments = { clan_government }
+}
+
+
+
+duke_clan_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 40
+	top_liege = no
+	governments = { clan_government }
+}
+duke_clan_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 40
+	top_liege = no
+	governments = { clan_government }
+}
+duchy_clan = {
+	type = title
+	tier = duchy
+	priority = 40
+	top_liege = no
+	governments = { clan_government }
+}
+
+
+
+king_clan_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 50
+	top_liege = no
+	governments = { clan_government }
+}
+king_clan_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 50
+	top_liege = no
+	governments = { clan_government }
+}
+kingdom_clan = {
+	type = title
+	tier = kingdom
+	top_liege = no
+	priority = 50
+	top_liege = no
+	governments = { clan_government }
+}
+
+
+
+emperor_clan_male = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 60
+	top_liege = no
+	governments = { clan_government }
+}
+emperor_clan_female = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 60
+	top_liege = no
+	governments = { clan_government }
+}
+empire_clan = {
+	type = title
+	tier = empire
+	top_liege = no
+	priority = 60
+	governments = { clan_government }
+}
