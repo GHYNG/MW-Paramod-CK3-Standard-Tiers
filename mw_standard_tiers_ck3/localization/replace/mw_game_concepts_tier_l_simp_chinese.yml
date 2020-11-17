@@ -1,0 +1,49 @@
+﻿l_simp_chinese:
+ game_concept_barony:0 "微型领"
+ game_concept_baronies:0 "诸微型领"
+ game_concept_barons:0 "诸微型领主"
+ game_concept_baron:0 "微型领主"
+ 
+ game_concept_barony_desc:0 "$game_concept_barony$是最低等级的[titles|E]，地图上最小的区域，组成了更大的[counties|E]。\n\n$game_concept_baronies$头衔若含有一个[holding|E]，则必须有一位[holder|E]。"
+ 
+ 
+ 
+ game_concept_county:0 "小型领"
+ game_concept_counties:0 "诸小型领"
+ game_concept_count:0 "小型领主"
+ 
+ game_concept_county_desc:0 "$game_concept_county$是等级低于[duchy|E]又高于[barony|E]的[title|E]。\n\n这种头衔包括$game_concept_county$内的[county_capital|E]，以及对于$game_concept_county$内所有$game_concept_baronies$的[de_jure|E]权利。\n\n$game_concept_county$总是有[holders|E]，因为$game_concept_county$首府不可摧毁。"
+ 
+ 
+ 
+ game_concept_duchy:0 "中型领"
+ game_concept_duchies:0 "诸中型领"
+ game_concept_duke:0 "中型领主"
+ 
+ game_concept_duchy_desc:0 "$game_concept_duchy$是等级低于[kingdom|E]又高于[county|E]的[title|E]。\n\n$game_concept_duchy$的[holder|E]对于$game_concept_duchy$的组成$game_concept_counties$有[de_jure|E]权利，也能有$game_concept_count$作为[vassals|E]。\n\n$game_concept_duchy$可能是未激活的，且并无当前持有者。这种头衔能由至少控制了其法理内半数$game_concept_counties$的[ruler|E]创建。"
+ 
+ 
+ 
+ game_concept_kingdom:0 "大型领"
+ game_concept_kingdoms:0 "诸大型领"
+ game_concept_king:0 "大型领主"
+ 
+ game_concept_kingdom_desc:0 "$game_concept_kingdom$是等级低于[empire|E]又高于[duchy|E]的[title|E]。\n\n$game_concept_kingdom$的[holder|E]对于$game_concept_kingdom$的组成$game_concept_duchies$[de_jure|E]权利，且能有$game_concept_duke$作为[vassals|E]。\n\n$game_concept_kingdom$可能是未激活的，且并无当前持有者。这种头衔能由至少控制了其法理内半数$game_concept_counties$的[ruler|E]创建。"
+ 
+ 
+ 
+ game_concept_empire:0 "巨型领"
+ game_concept_empires:0 "诸巨型领"
+ game_concept_emperor:0 "巨型领主"
+ 
+ game_concept_empire_desc:0 "$game_concept_empire$是最高级的[titles|E]。\n\n$game_concept_empire$的[holder|E]对$game_concept_empire$组成$game_concept_kingdoms$享有[de_jure|E]权利，并且可以拥有$game_concept_king$作为[vassals|E]。\n\n$game_concept_empire$头衔可能是未激活且无当前持有者的。这种头衔能由至少控制了其法理内半数$game_concept_counties$的[ruler|E]创建。"
+ 
+ 
+ 
+ game_concept_county_capital:0 "$game_concept_county$首府"
+ game_concept_county_capitals:0 "诸$game_concept_county$首府"
+ game_concept_county_capital_desc:0 "$game_concept_county_capital$是[county|E]的主要[holding|E]。这一地产永远不能摧毁或[leased|E]，且总是归持有该$game_concept_county$[title|E]的[ruler|E]所有。\n\n与其他级别较低的地产相比，$game_concept_county_capital$允许建设一个额外的[building|E]。"
+ 
+ 
+ 
+ game_concept_title_desc:1 "$game_concept_title$本质上是土地所有权的证明。\n\n地图上最小的土地单位是[barony|E]。$game_concept_baronies$则组成了更大的地区，称为[counties|E]。$game_concept_counties$在[de_jure|E]上属于[duchy|E]，$game_concept_duchies$属于[kingdom|E]，$game_concept_kingdoms$属于[empire|E]。\n\n$game_concept_duchies$、$game_concept_kingdoms$和$game_concept_empires$并不总是有一位[holder|E]，但是其头衔可以被控制了足够多相应领土的统治者[created|E]。"

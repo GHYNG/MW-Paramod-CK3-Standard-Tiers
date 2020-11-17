@@ -1,0 +1,4 @@
+﻿l_simp_chinese:
+ ARMY_VIEW_MAA:0 "职业兵"
+ game_concept_men_at_arms:0 "职业兵"
+ game_concept_men_at_arms_desc:0 "$game_concept_men_at_arms$是强于[levies|E]的职业[soldiers|E]。\n\n玩家直接控制其$game_concept_men_at_arms$[regiments|E]的组成和规模。\n\n不同类型的$game_concept_men_at_arms$在各种[terrain|E]上发挥或好或坏。每种类型也[counters|E]另一种类型。"

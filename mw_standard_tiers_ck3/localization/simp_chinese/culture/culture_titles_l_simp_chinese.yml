@@ -1,0 +1,247 @@
+﻿l_simp_chinese:
+
+ #############################################
+ 
+#General Prefixs
+ t1:0 "最低阶"
+ t2:0 "低阶"
+ t3:0 "中阶"
+ t4:0 "高阶"
+ t5:0 "最高阶"
+ 
+#General names:
+ baron:0 "$t1$男贵族"
+ baron_female:0 "$t1$女贵族"
+ barony:0 "$t1$贵族领"
+ 
+ count:0 "$t2$男贵族"
+ count_female:0 "$t2$女贵族"
+ county:0 "$t2$贵族领"
+ 
+ duke:0 "$t3$男贵族"
+ duke_female:0 "$t3$女贵族"
+ duchy:0 "$t3$贵族领"
+ 
+ king:0 "$t4$男贵族"
+ king_female:0 "$t4$女贵族"
+ kingdom:0 "$t4$贵族领"
+ 
+ emperor:0 "$t5$男贵族"
+ emperor_female:0 "$t5$女贵族"
+ empire:0 "$t5$贵族领"
+ 
+ baron_plural:0 "$t1$贵族"
+ count_plural:0 "$t2$贵族"
+ duke_plural:0 "$t3$贵族"
+ king_plural:0 "$t4$贵族"
+ emperor_plural:0 "$t5$贵族"
+ unlanded_plural:0 "无地贵族"
+
+ #Default Feudal tiers 
+ #Default Republic tiers
+ #Default Theocracy tiers
+ #Default Clan tiers
+ #Default Tribal tiers
+ #Default Imperial tiers
+ #Default Nomadic Clan tiers
+ #Default Mercenary tiers
+ #Default Holy Order tiers
+ #Default Viceroyalty tiers
+
+
+ #Default Feudal tiers 
+ baron_feudal_male:0 "男爵"
+ baron_feudal_female:0 "女男爵"
+ barony_feudal:0 "男爵领"
+ baron_feudal_independent:0 "男"
+ baron_feudal_independent_female:0 "女男"
+ barony_feudal_independent:0 "男国"
+ 
+ count_feudal_male:0 "伯爵"
+ count_feudal_female:0 "女伯爵"
+ county_feudal:0 "伯爵领"
+ count_feudal_independent:0 "伯"
+ count_feudal_independent_female:0 "女伯"
+ county_feudal_independent:0 "伯国"
+ 
+ duke_feudal_male:0 "公爵"
+ duke_feudal_female:0 "女公爵"
+ duchy_feudal:0 "公爵领"
+ duke_feudal_independent:0 "公"
+ duke_feudal_independent_female:0 "女公"
+ duchy_feudal_independent:0 "公国"
+ 
+ king_feudal_male:0 "王爵"
+ king_feudal_female:0 "女王爵"
+ kingdom_feudal:0 "王爵领"
+ king_feudal_independent:0 "王"
+ king_feudal_independent_female:0 "女王"
+ kingdom_feudal_independent:0 "王国"
+ 
+ emperor_feudal_male:0 "帝爵"
+ emperor_feudal_female:0 "女帝爵"
+ empire_feudal:0 "帝爵领"
+ emperor_feudal_independent:0 "帝"
+ emperor_feudal_independent_female:0 "女帝"
+ empire_feudal_independent:0 "帝国"
+
+ #Default Republic tiers
+ ruler_republic:0 "执政官"
+ 
+ baron_republic_male:0 "乡$ruler_republic$"
+ baron_republic_female:0 "乡$ruler_republic$"
+ barony_republic:0 "乡"
+ 
+ count_republic_male:0 "县$ruler_republic$"
+ count_republic_female:0 "县$ruler_republic$"
+ county_republic:0 "县"
+ 
+ duke_republic_male:0 "郡$ruler_republic$"
+ duke_republic_female:0 "郡$ruler_republic$"
+ duchy_republic:0 "郡"
+ 
+ king_republic_male:0 "州$ruler_republic$"
+ king_republic_female:0 "州$ruler_republic$"
+ kingdom_republic:0 "州"
+ 
+ emperor_republic_male:0 "国$ruler_republic$"
+ emperor_republic_female:0 "国$ruler_republic$"
+ empire_republic:0 "国"
+
+ #Default Theocracy tiers
+ baron_theocracy_male:0 "$t1$教团长"
+ baron_theocracy_female:0 "$t1$女教团长"
+ barony_theocracy:0 "$t1$教团"
+ 
+ count_theocracy_male:0 "$t2$教团长"
+ count_theocracy_female:0 "$t2$女教团长"
+ county_theocracy:0 "$t2$教团"
+ 
+ duke_theocracy_male:0 "$t3$教团长"
+ duke_theocracy_female:0 "$t3$女教团长"
+ duchy_theocracy:0 "$t3$教团"
+ 
+ king_theocracy_male:0 "$t4$教团长"
+ king_theocracy_female:0 "$t4$女教团长"
+ kingdom_theocracy:0 "$t4$教团"
+ 
+ emperor_theocracy_male:0 "$t5$教团长"
+ emperor_theocracy_female:0 "$t5$女教团长"
+ empire_theocracy:0 "$t5$教团"
+
+ #Default Clan tiers
+ baron_clan_male:0 "微族长"
+ baron_clan_female:0 "女微族长"
+ barony_clan:0 "微型氏族"
+ 
+ count_clan_male:0 "小族长"
+ count_clan_female:0 "女小族长"
+ county_clan:0 "小型氏族"
+ 
+ duke_clan_male:0 "中族长"
+ duke_clan_female:0 "女族长"
+ duchy_clan:0 "中型氏族"
+ 
+ king_clan_male:0 "大族长"
+ king_clan_female:0 "女大族长"
+ kingdom_clan:0 "大型氏族"
+ 
+ emperor_clan_male:0 "巨族长"
+ emperor_clan_female:0 "女巨族长"
+ empire_clan:0 "巨型氏族"
+
+ #Default Tribal tiers
+ baron_tribal_male:0 "十户长"
+ baron_tribal_female:0 " 女十户长"
+ barony_tribal:0 "十户"
+ count_tribal_male:0 "百户长"
+ count_tribal_female:0 "女百户长"
+ county_tribal:0 "百户"
+ duke_tribal_male:0 "千户长"
+ duke_tribal_female:0 "女千户长"
+ duchy_tribal:0 "千户"
+ king_tribal_male:0 "万户长"
+ king_tribal_female:0 "女万户长"
+ kingdom_tribal:0 "万户"
+ emperor_tribal_male:0 "亿户长"
+ emperor_tribal_female:0 "女亿户长"
+ empire_tribal:0 "亿户"
+
+ #Default Mercenary tiers
+ baron_mercenary_male:0 "分队长"
+ baron_mercenary_female:0 "分队长"
+ barony_mercenary:0 "分队"
+ count_mercenary_male:0 "小队长"
+ count_mercenary_female:0 "小队长"
+ county_mercenary:0 "小队"
+ duke_mercenary_male:0 "中队长"
+ duke_mercenary_female:0 "中队长"
+ duchy_mercenary:0 "中队"
+ king_mercenary_male:0 "大队长"
+ king_mercenary_female:0 "大队长"
+ kingdom_mercenary:0 "大队"
+ emperor_mercenary_male:0 "联队长"
+ emperor_mercenary_female:0 "联队长"
+ empire_mercenary:0 "联队"
+
+ #Default Holy Order tiers
+ baron_holy_order_male:0 "分队长"
+ baron_holy_order_female:0 "分队长"
+ barony_holy_order:0 "圣分队"
+ count_holy_order_male:0 "小队长"
+ count_holy_order_female:0 "小队长"
+ county_holy_order:0 "圣小队"
+ duke_holy_order_male:0 "中队长"
+ duke_holy_order_female:0 "中队长"
+ duchy_holy_order:0 "圣中队"
+ king_holy_order_male:0 "大队长"
+ king_holy_order_female:0 "大队长"
+ kingdom_holy_order:0 "圣大队"
+ emperor_holy_order_male:0 "联队长"
+ emperor_holy_order_female:0 "联队长"
+ empire_holy_order:0 "圣联队"
+
+ #Default Faction Leader
+ faction_leader_male:0 "领袖"
+ faction_leader_female:0 "领袖"
+ 
+ #Default Viceroyalty tiers
+ baron_viceroyalty_male:0 "最低总督"
+ baron_viceroyalty_female:0 "最低女总督"
+ barony_viceroyalty:0 "最低级辖区"
+ count_viceroyalty_male:0 "低级总督"
+ count_viceroyalty_female:0 "低级女总督"
+ county_viceroyalty:0 "低级辖区"
+ duke_viceroyalty_male:0 "中级总督"
+ duke_viceroyalty_female:0 "中级女总督"
+ duchy_viceroyalty:0 "中级辖区"
+ king_viceroyalty_male:0 "高级总督"
+ king_viceroyalty_female:0 "高级女总督"
+ kingdom_viceroyalty:0 "高级辖区"
+ emperor_viceroyalty_male:0 "最高总督"
+ emperor_viceroyalty_female:0 "最高女总督"
+ empire_viceroyalty:0 "最高级辖区"
+ 
+ #ruler child
+ prince_barony:0 "男子"
+ princess_barony:0 "男女"
+ prince_county:0 "伯子"
+ princess_county:0 "伯女"
+ prince_duchy:0 "公子"
+ princess_duchy:0 "公女"
+ prince_kingdom:0 "王子"
+ princess_kingdom:0 "王女"
+ prince_empire:0 "帝子"
+ princess_empire:0 "帝女"
+ 
+ #ruler parent
+ father_barony:0 "男父"
+ mother_barony:0 "男母"
+ father_county:0 "伯父"
+ mother_county:0 "伯母"
+ father_duchy:0 "公父"
+ mother_duchy:0 "公母"
+ father_kingdom:0 "王父"
+ mother_kingdom:0 "王母"
+ father_empire:0 "帝父"
+ mother_empire:0 "帝母"
